@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.dev.js",
+    "build-watch": "./node_modules/.bin/webpack --config webpack.config.dev.js --watch",
+    "build-prod": "./node_modules/.bin/webpack --config webpack.config.prod.js"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+    "jquery": "3.1.1",
+    "jquery-validation": "1.15.1",
+    "jquery-validation-unobtrusive": "3.2.6",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.5",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  }
+}
